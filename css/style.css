@@ -8,7 +8,53 @@ html {
 }
 
 .main-container{
+    position: relative;
     height: 800px;
     width: 800px;
-    border: 2px solid var(--border-color);
+    border: 5px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: var(--border-color);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+body {
+    background-color: var(--background-color);
+
+
+}
+
+img {
+    position: absolute;
+    
+}
+
+.mountain {
+    bottom: 20%;
+    top: 22%;
+    left: 10%;
+    right: 10%;
+}
+
+.text{
+    position: absolute;
+    bottom: 5%;
+    margin: 0 40%;
+}
+
+.cloud1{
+    top: 8%;
+    right: 15%;
+}
+
+.cloud2{
+    top: 16%;
+    left: 20%;
+}
+
+.cloud3{
+    top: 30%;
+    right: 20%;
 }
